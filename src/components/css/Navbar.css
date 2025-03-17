@@ -21,3 +21,58 @@
   margin-left: 10px;
   transition: color 0.3s ease;
 }
+
+/* Medium Screens (Tablets) */
+@media (max-width: 1024px) {
+  .nav-card {
+    gap: 25px;
+  }
+
+  .nav-card a {
+    font-size: 18px;
+  }
+
+  .nav-container a i {
+    font-size: 18px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 10px 0;
+  }
+
+  .nav-card {
+    gap: 15px;
+  }
+
+  .nav-card a {
+    font-size: 16px;
+  }
+
+  .nav-container a i {
+    font-size: 16px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 8px 0;
+  }
+
+  .nav-card {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-card a {
+    font-size: 14px;
+  }
+
+  .nav-container a i {
+    font-size: 14px;
+  }
+}

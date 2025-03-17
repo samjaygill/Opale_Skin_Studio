@@ -9,14 +9,62 @@
   padding: 0% 5%;
   gap: 3%;
   border-bottom: 0.5px solid #d0bfa5;
-
 }
+
 .founder-text {
   max-width: 50%;
 }
+
 .maisy {
   max-width: 50%;
   width: 25%;
   margin: 2.5%;
   border: 3px solid #d0bfa5;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .founder-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .founder-text{
+    max-width: 70%;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .maisy {width: 40%;}
+}
+
+/* Tablet View */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .founder-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .founder-text,
+  .maisy {
+    max-width: 48%;
+    width: 48%;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 1025px) {
+  .founder-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .founder-text {
+    max-width: 50%;
+  }
+
+  .maisy {
+    max-width: 50%;
+    width: 25%;
+  }
 }

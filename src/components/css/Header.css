@@ -28,6 +28,7 @@
   max-width: 120px;
   margin-left: 2.5%;
   border: 2px solid #d0bfa5;
+  flex: 1;
 }
 
 .book-btn {
@@ -40,6 +41,7 @@
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  flex:3;
 }
 
 .book-btn:hover {
@@ -61,4 +63,82 @@
 
 .social-icons i:hover {
   color: #b6a58d; /* Lighter color on hover */
+}
+
+/* Small Devices (Tablets) */
+@media (max-width: 1024px) {
+  .header-container {
+    padding: 15px 3%;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+  .book-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .social-icons i {
+    font-size: 18px;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .logo {
+    max-width: 80px;
+    margin: 0 auto;
+  }
+
+  .book-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+
+  .social-icons {
+    gap: 8px;
+  }
+
+  .social-icons i {
+    font-size: 20px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .header-container {
+    padding: 0;
+  }
+
+  .logo {
+    max-width: 90px;
+  }
+
+  .book-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .social-icons {
+    gap: 6px;
+  }
+
+  .social-icons i {
+    font-size: 18px;
+  }
 }

@@ -22,3 +22,65 @@
 .services-head {
   font-size: 30px;
 }
+
+@media (max-width: 1024px) {
+  .services-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .services-text {
+    max-width: 80%;
+  }
+
+  .salon {
+    max-width: 60%;
+  }
+
+  .services-head {
+    font-size: 28px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .services-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .services-text {
+    max-width: 90%;
+  }
+
+  .salon {
+    max-width: 70%;
+  }
+
+  .services-head {
+    font-size: 24px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .services-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .services-text {
+    max-width: 90%;
+  }
+
+  .salon {
+    max-width: 100%;
+  }
+
+  .services-head {
+    font-size: 20px;
+  }
+}

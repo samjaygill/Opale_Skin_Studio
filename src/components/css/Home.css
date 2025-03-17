@@ -29,3 +29,67 @@
 .body {
   font-size: 18px;
 }
+
+
+/* Medium Screens (Tablets) */
+@media (max-width: 1024px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .text-content, .candles {
+    max-width: 80%;
+  }
+
+  .head {
+    font-size: 32px;
+  }
+
+  .body {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  /* .text-content, .candles {
+    max-width: 100%;
+  } */
+
+  .head {
+    font-size: 20px;
+  }
+
+  .body {
+    font-size: 15px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+    padding-top: 35px;
+  }
+
+  .candles{
+    /* width: 100%; */
+    width: 90%;
+  }
+
+  .head {
+    font-size: 25px;
+    /* padding-top: 5px; */
+  }
+
+  .body {
+    font-size: 13px;
+  }
+}

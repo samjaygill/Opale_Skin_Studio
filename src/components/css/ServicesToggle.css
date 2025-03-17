@@ -31,3 +31,47 @@
 .accordion-content.aesthetic-open {
   border-bottom: 1px solid #d0bfa5; /* Add bottom border when open */
 }
+
+/* Medium Screens (Tablets) */
+@media (max-width: 1024px) {
+  .accordion-btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .accordion-content {
+    padding: 8px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  .accordion-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .accordion-content {
+    padding: 6px;
+  }
+
+  .accordion-icon {
+    font-size: 18px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .accordion-btn {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .accordion-content {
+    padding: 5px;
+  }
+
+  .accordion-icon {
+    font-size: 16px;
+  }
+}

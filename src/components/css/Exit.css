@@ -1,0 +1,32 @@
+.exit-container {
+  background-color: #f9f4ef !important;
+}
+
+.exit-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.exit-text {
+  font-size: 30px;
+  margin: 0.5%;
+}
+
+.exit-book-btn {
+  background-color: #fff9f1;
+  color: #8f7365;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #d0bfa5;
+  padding: 20px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* margin-top: 2.5%; */
+}
+
+.exit-book-btn:hover {
+  border: 2px solid #8f7365;
+}

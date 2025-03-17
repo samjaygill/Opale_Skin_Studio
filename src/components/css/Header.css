@@ -1,0 +1,64 @@
+.header {
+  background-color: #b6a58d;
+  max-height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: linear-gradient(
+    to bottom,
+    #e1d3c4 80%,
+    rgba(232, 216, 210, 0) 100%
+  );
+  transition: background 0.3s ease;
+  /* padding: 10px 20px 20px 20px; */
+  display: flex;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 75px;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  max-width: 120px;
+  margin-left: 2.5%;
+  border: 2px solid #d0bfa5;
+}
+
+.book-btn {
+  background-color: #fff9f1;
+  color: #8f7365;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #d0bfa5;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  border: 2px solid #8f7365;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5px; /* Space between icons and button */
+}
+
+.social-icons i {
+  font-size: 20px;
+  color: #8f7365;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #b6a58d; /* Lighter color on hover */
+}

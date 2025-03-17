@@ -1,0 +1,33 @@
+.accordion-btn {
+  background-color: #f9f4ef;
+  padding: 15px;
+  color: inherit;
+  text-align: left;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #d0bfa5; /* Top border color */
+  border-bottom: 1px solid #d0bfa5; /* Bottom border color */
+  width: 100%;
+}
+
+.accordion-section button:hover {
+  border-top: 1.5px solid #d0bfa5;
+  border-bottom: 1.5px solid #d0bfa5;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #f9f4ef; /* White background */
+}
+
+.accordion-icon {
+  margin-left: 10px;
+}
+.accordion-content.aesthetic-open {
+  border-bottom: 1px solid #d0bfa5; /* Add bottom border when open */
+}

@@ -1,51 +1,75 @@
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .contact-form-container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  
-  textarea {
-    height: 120px;
-    resize: none;
-  }
-  
-  button {
-    width: 100%;
-    padding: 10px;
-    background: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: #45a049;
-  }
-  
+  max-width: 600px;
+  padding: 20px; /* Reduced padding */
+  background: #fefbf9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #d0bfa5;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 60px;
+  resize: none;
+}
+
+.button {
+  background-color: #fff9f1;
+  color: #8f7365;
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #d0bfa5;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.button:hover {
+  border: 2px solid #8f7365;
+}
+
+/* Flexbox for First and Last Name on the same line */
+.form-group-inline {
+  display: flex;
+  gap: 15px; /* Space between First Name and Last Name */
+}
+
+.form-group-inline .form-group {
+  flex: 1;
+}
+
+.form-group-inline .form-group input {
+  width: 100%;
+}

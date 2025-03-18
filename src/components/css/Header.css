@@ -11,7 +11,6 @@
     rgba(232, 216, 210, 0) 100%
   );
   transition: background 0.3s ease;
-  /* padding: 10px 20px 20px 20px; */
   display: flex;
 }
 .header-container {
@@ -41,7 +40,7 @@
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  flex:3;
+  flex: 3;
 }
 
 .book-btn:hover {
@@ -51,8 +50,8 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 5px; /* Space between icons and button */
+  gap: 7.5px;
+  margin-bottom: 5px;
 }
 
 .social-icons i {
@@ -62,7 +61,7 @@
 }
 
 .social-icons i:hover {
-  color: #b6a58d; /* Lighter color on hover */
+  color: #b6a58d;
 }
 
 /* Small Devices (Tablets) */

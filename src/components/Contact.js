@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-container">
+        <ContactForm />
         <img src={logo2} alt="Logo" className="large-logo" />
-        <ContactForm/>
       </div>
     </div>
   );

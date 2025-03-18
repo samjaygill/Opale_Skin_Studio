@@ -1,29 +1,25 @@
-
 import Header from '../components/Header';
 import Home from '../components/Home';
 import Services from '../components/Services';
 import Founder from '../components/Founder';
 import Contact from '../components/Contact';
-import Exit from '../components/Exit';
 
 function MainContainer() {
   return (
     <div>
-      
       <Header />
       <section id="home">
-      <Home/>
+        <Home />
       </section>
       <section id="services">
-      <Services/>
+        <Services />
       </section>
       <section id="founder">
-      <Founder/>
+        <Founder />
       </section>
       <section id="contact">
-      <Contact/>
+        <Contact />
       </section>
-      <Exit/>
     </div>
   );
 }

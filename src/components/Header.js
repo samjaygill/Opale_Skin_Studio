@@ -25,12 +25,20 @@ const Header = () => {
               <i className="fab fa-instagram"></i>
             </a>
             <a
+              href="https://www.tiktok.com/@opaleskinstudio"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-tiktok"></i>
+            </a>
+            <a
               href="https://www.facebook.com/maisyalicebeauty"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-facebook-square"></i>
             </a>
+
             </div>
             <a
               href="https://www.fresha.com/a/opale-skin-studio-foxearth-tuckers-mill-road-jrodaumo/booking?menu=true&pId=2496534&dppub=true&employeeId=4535176"

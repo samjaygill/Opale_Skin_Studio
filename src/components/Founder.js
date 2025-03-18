@@ -37,7 +37,7 @@ const Founder = () => {
             See you soon!
             <br />
             <br />
-            - Maisy x
+            <b>- Maisy x</b>
           </p>
         </div>
         <img src={image3} alt="Maisy Littmoden" className="maisy" />

@@ -3,6 +3,7 @@ import Home from '../components/Home';
 import Services from '../components/Services';
 import Founder from '../components/Founder';
 import Contact from '../components/Contact';
+import Footer from "../components/Footer"
 
 function MainContainer() {
   return (
@@ -20,6 +21,7 @@ function MainContainer() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer/>
     </div>
   );
 }

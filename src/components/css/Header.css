@@ -64,6 +64,10 @@
   color: #b6a58d;
 }
 
+.button-card {
+  order: 3;
+}
+
 /* Small Devices (Tablets) */
 @media (max-width: 1024px) {
   .header-container {
@@ -105,7 +109,7 @@
   }
 
   .book-btn {
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px 14px;
   }
 
@@ -114,7 +118,7 @@
   }
 
   .social-icons i {
-    font-size: 20px;
+    font-size: 12px;
   }
 }
 
@@ -125,19 +129,20 @@
   }
 
   .logo {
-    max-width: 90px;
+    max-width: 100px;
   }
 
   .book-btn {
-    font-size: 13px;
+    font-size: 14px;
     padding: 6px 12px;
   }
 
   .social-icons {
-    gap: 6px;
+    gap: 10px;
+    margin: 5px 0px;
   }
 
   .social-icons i {
-    font-size: 18px;
+    font-size: 14px;
   }
 }

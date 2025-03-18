@@ -9,13 +9,11 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-container">
-        <div className="logo-card">
+        <div className="logo-card row-1 column-1">
           <img src={logo} alt="Logo" className="logo" />
         </div>
-        <div className="navbar-card">
-          <Navbar />
-        </div>
-        <div className="button-card">
+
+        <div className="button-card row-1 column-1">
           <div className="social-icons">
             <a
               href="https://www.instagram.com/opaleskinstudio/"
@@ -48,6 +46,9 @@ const Header = () => {
               <button className="book-btn">Book Now</button>
             </a>
           
+        </div>
+        <div className="navbar-card column-2">
+          <Navbar />
         </div>
       </div>
     </div>

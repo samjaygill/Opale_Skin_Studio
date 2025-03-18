@@ -17,8 +17,8 @@
 
 .maisy {
   max-width: 50%;
-  width: 25%;
-  margin: 2.5%;
+  width: 26%;
+  margin: 2.5% 0% ;
   border: 3px solid #d0bfa5;
 }
 
@@ -29,13 +29,15 @@
     align-items: center;
   }
 
-  .founder-text{
+  .founder-text {
     max-width: 70%;
     width: 100%;
     margin: 10px 0;
   }
-  
-  .maisy {width: 40%;}
+
+  .maisy {
+    width: 40%;
+  }
 }
 
 /* Tablet View */

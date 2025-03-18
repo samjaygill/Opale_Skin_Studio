@@ -104,45 +104,31 @@
   }
 
   .logo {
-    max-width: 80px;
-    margin: 0 auto;
+    max-width: 120px;
   }
 
   .book-btn {
-    font-size: 12px;
-    padding: 8px 14px;
+    font-size: 14px;
+    padding: 5px 10px;
   }
 
   .social-icons {
-    gap: 8px;
+    font-size: 0;
+    display: none;
   }
 
-  .social-icons i {
-    font-size: 12px;
-  }
+ 
 }
 
 /* Extra Small Devices */
 @media (max-width: 480px) {
   .header-container {
-    padding: 0;
+    padding-top: 30px;
   }
 
   .logo {
-    max-width: 100px;
+    max-width: 120px;
+    margin: 2.5% 0;
   }
 
-  .book-btn {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-
-  .social-icons {
-    gap: 10px;
-    margin: 5px 0px;
-  }
-
-  .social-icons i {
-    font-size: 14px;
-  }
 }

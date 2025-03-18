@@ -7,8 +7,12 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-container">
+        <div className='contact-form'>
         <ContactForm />
+        </div>
+        {/* <div className='contact-logo'> */}
         <img src={logo2} alt="Logo" className="large-logo" />
+        {/* </div> */}
       </div>
     </div>
   );

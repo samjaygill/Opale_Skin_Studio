@@ -1,20 +1,56 @@
 .contact {
   background-color: #f9f4ef;
+  /* width: 100%; */
 }
 
 .contact-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center !important;
   padding: 2.5% 5%;
   gap: 5%;
 }
 .large-logo {
   max-width: 50%;
-  width: 20%;
+  width: 25%;
   margin: 2.5%;
   border: 3px solid #d0bfa5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Ensure text container doesn't stretch too wide */
 .contact-text {
   width: 50%;
+}
+
+/* Responsive Styles */
+
+/* For Tablets and Smaller Screens */
+@media (max-width: 768px) {
+  .contact-container {
+    display: flex;
+    flex-direction: row; /* Stack the logo and text vertically */
+    gap: 2%; /* Add more space between elements */
+    flex-wrap: nowrap;
+    /* align-items: space-between; */
+  }
+
+  .contact-form {
+    width: 60%;
+  }
+
+  .contact-logo {
+    width: 40%; /* Ensure the text doesn't stretch too much */
+  }
+  .large-logo {
+    max-width: 100%;
+    width: 40%;
+  }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 5% 2.5%; /* Increase padding for mobile screens */
+  }
 }

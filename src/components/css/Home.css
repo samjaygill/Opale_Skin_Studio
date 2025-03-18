@@ -21,6 +21,8 @@
   width: 30%;
   margin: 2.5%;
   border: 3px solid #d0bfa5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 .head {
   font-size: 40px;
@@ -30,14 +32,14 @@
   font-size: 18px;
 }
 
-
 /* Medium Screens (Tablets) */
 @media (max-width: 1024px) {
   .home-container {
     flex-direction: column;
   }
 
-  .text-content, .candles {
+  .text-content,
+  .candles {
     max-width: 80%;
   }
 
@@ -55,18 +57,26 @@
   .home-container {
     flex-direction: column;
     gap: 5px;
+    padding: 0%;
+    margin-top: 5%;
   }
 
-  /* .text-content, .candles {
-    max-width: 100%;
-  } */
+  .text-content,
+  .candles {
+    max-width: 95%;
+  }
+  .candles{
+    margin: 0 0 2.5% 0;
+  }
 
   .head {
-    font-size: 20px;
+    font-size: 22px;
+    margin: 4% 0%;
   }
 
   .body {
-    font-size: 15px;
+    font-size: 17px;
+    margin: 2.5% 0 0 0;
   }
 }
 
@@ -79,7 +89,7 @@
     padding-top: 35px;
   }
 
-  .candles{
+  .candles {
     /* width: 100%; */
     width: 90%;
   }
@@ -90,6 +100,6 @@
   }
 
   .body {
-    font-size: 13px;
+    font-size: 14px;
   }
 }

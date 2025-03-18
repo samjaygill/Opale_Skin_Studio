@@ -7,7 +7,6 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 0% 5%;
-  gap: 3%;
   border-bottom: 0.5px solid #d0bfa5;
 }
 
@@ -18,55 +17,48 @@
 .maisy {
   max-width: 50%;
   width: 26%;
-  margin: 2.5% 0% ;
+  margin: 2.5% 0%;
   border: 3px solid #d0bfa5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Mobile View */
 @media (max-width: 768px) {
   .founder-container {
-    flex-direction: row;
+    padding: 2.5% 2.5%;
+    justify-content: center;
     align-items: center;
+    gap: 1.5%;
+    flex: none;
+    float: right;
   }
 
   .founder-text {
-    max-width: 70%;
-    width: 100%;
+    max-width: 60%;
+    float: inline-start;
+    overflow-wrap: normal;
+  }
+
+  h3{
+    font-size: 16px;
+  }
+
+  h4{
+    font-size: 14px;
+  }
+  p{
     margin: 10px 0;
   }
 
   .maisy {
-    width: 40%;
+    max-width: 45%;
+    width: 45%;
+    /* margin: 25% 0%; */
+    float: right;
   }
 }
 
-/* Tablet View */
-@media (max-width: 1024px) and (min-width: 769px) {
-  .founder-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .founder-text,
-  .maisy {
-    max-width: 48%;
-    width: 48%;
-  }
-}
-
-/* Desktop View */
-@media (min-width: 1025px) {
-  .founder-container {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .founder-text {
-    max-width: 50%;
-  }
-
-  .maisy {
-    max-width: 50%;
-    width: 25%;
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 5% 2.5%; /* Increase padding for mobile screens */
   }
 }

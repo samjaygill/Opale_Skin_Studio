@@ -18,6 +18,8 @@
   width: 80%;
   margin: 2.5%;
   border: 3px solid #d0bfa5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 .services-head {
   font-size: 30px;
@@ -52,15 +54,21 @@
   }
 
   .services-text {
-    max-width: 90%;
+    max-width: 100%;
   }
 
+  p {
+    font-size: 14px;
+    margin: 10px;
+  }
   .salon {
-    max-width: 70%;
+    max-width: 100%;
+    margin: 0;
   }
 
   .services-head {
     font-size: 24px;
+    margin: 15px;
   }
 }
 
@@ -70,10 +78,6 @@
     flex-direction: column-reverse;
     text-align: center;
     gap: 10px;
-  }
-
-  .services-text {
-    max-width: 90%;
   }
 
   .salon {

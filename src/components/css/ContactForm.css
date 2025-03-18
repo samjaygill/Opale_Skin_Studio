@@ -7,10 +7,11 @@
 
 .contact-form-container {
   max-width: 600px;
-  padding: 20px; /* Reduced padding */
+  padding: 20px;
   background: #fefbf9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border: 2px solid #d0bfa5;
+  margin: 0 auto; /* Center the form on the page */
 }
 
 h2 {
@@ -72,4 +73,59 @@ textarea {
 
 .form-group-inline .form-group input {
   width: 100%;
+}
+
+/* Responsive Styles */
+
+/* Small Devices (Tablets and Mobile Portrait) */
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 15px;
+    width: 90%; /* Adjust container width on smaller screens */
+  }
+
+  .form-group-inline {
+    flex-direction: column; /* Stack name fields vertically on smaller screens */
+  }
+
+  .form-group-inline .form-group {
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 14px; /* Adjust header size */
+  }
+  label {
+    font-size: 13px;
+  }
+
+  .button {
+    font-size: 14px; /* Smaller button text */
+    padding: 8px 16px; /* Adjust button padding */
+  }
+}
+
+/* Extra Small Devices (Mobile) */
+@media (max-width: 480px) {
+  .contact-form-container {
+    padding: 5px 10px;
+    width: 95%; /* Increase container width on smaller screens */
+  }
+
+  .form-group-inline {
+    flex-direction: column; /* Stack fields vertically on mobile */
+  }
+
+  .form-group-inline .form-group {
+    margin-bottom: 8px;
+  }
+
+  .button {
+    font-size: 13px; /* Adjust button font size for mobile */
+    padding: 6px 12px; /* Adjust button padding */
+  }
 }

@@ -22,7 +22,9 @@
 
 .accordion-content {
   padding: 10px;
-  background-color: #f9f4ef; /* White background */
+  border-left: 1px solid #d0bfa5;
+  border-right: 1px solid #d0bfa5;
+  background-color: #fefbf9; /* White background */
 }
 
 .accordion-icon {
@@ -54,6 +56,10 @@
   .accordion-content {
     padding: 6px;
   }
+  .accordion-content-p{
+    font-size: 12px;
+
+  }
 
   .accordion-icon {
     font-size: 18px;
@@ -63,12 +69,13 @@
 /* Extra Small Devices */
 @media (max-width: 480px) {
   .accordion-btn {
-    font-size: 12px;
+    font-size: 14px;
     padding: 8px;
   }
 
   .accordion-content {
     padding: 5px;
+  
   }
 
   .accordion-icon {

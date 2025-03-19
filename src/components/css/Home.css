@@ -32,14 +32,18 @@
 }
 
 /* Medium Screens (Tablets) */
-@media (max-width: 1024px) {
+@media (max-width: 1210px) {
   .home-container {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .text-content,
   .candles {
     max-width: 80%;
+  }
+
+  .text-content {
+    padding: 2.5% 0 2.5% 2.5%;
   }
 
   .head {
@@ -50,6 +54,7 @@
     font-size: 16px;
   }
 }
+
 
 /* Mobile Screens */
 @media (max-width: 768px) {

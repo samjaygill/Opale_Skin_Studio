@@ -38,14 +38,18 @@
 }
 
 /* Medium Screens (Tablets) */
-@media (max-width: 1024px) {
+@media (max-width: 1127px) {
+
   .accordion-btn {
-    font-size: 14px;
-    padding: 12px;
+    font-size: 16px;
+    padding: 10px 15px;
   }
 
   .accordion-content {
     padding: 8px;
+  }
+  .accordion-content-p {
+    font-size: 14px;
   }
 }
 

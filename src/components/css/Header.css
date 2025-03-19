@@ -116,7 +116,7 @@
     right: 0;
   }
   .logo-card {
-    max-width: 100px;
+    max-width: 120px;
   }
 
   .social-icons {
@@ -146,7 +146,7 @@
     max-width: 100px;
   }
   .logo {
-    max-width: 100px;
+    max-width: 120px;
     margin: 0;
   }
 }

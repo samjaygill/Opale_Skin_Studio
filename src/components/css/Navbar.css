@@ -1,6 +1,8 @@
 .nav-card {
   display: flex;
   gap: 40px;
+  justify-content: center;
+  
 }
 
 .nav-card a {
@@ -56,6 +58,11 @@
 
 /* Extra Small Devices */
 @media (max-width: 480px) {
+  /* #contact {
+    background-color: #f9f4ef;
+    padding: 930px 0 ;
+
+  } */
   .nav-container {
     padding: 2px 0;
   }

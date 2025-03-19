@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './css/Navbar.css';
 
-
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('');
 
   const handleScroll = () => {
-    const sections = ['#home', '#services', '#founder', '#contact'];
-    const scrollPos = window.scrollY + 120; 
+    const sections = ['#home', '#services', '#maisy', '#contact'];
+    const scrollPos = window.scrollY + 120;
 
     for (let section of sections) {
       const element = document.querySelector(section);
@@ -34,7 +33,7 @@ const Navbar = () => {
   const handleNavClick = (e, section) => {
     e.preventDefault();
     const headerHeight = document.querySelector('.header').offsetHeight;
-    const extraOffset = 50; // Added extra scroll offset
+    const extraOffset = 25;
     const targetElement = document.querySelector(section);
 
     if (targetElement) {
@@ -63,9 +62,9 @@ const Navbar = () => {
           Services
         </a>
         <a
-          href="#founder"
-          onClick={(e) => handleNavClick(e, '#founder')}
-          className={activeSection === '#founder' ? 'active' : ''}
+          href="#maisy"
+          onClick={(e) => handleNavClick(e, '#maisy')}
+          className={activeSection === '#maisy' ? 'active' : ''}
         >
           Our Story
         </a>

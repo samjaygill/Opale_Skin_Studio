@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './css/Header.css';
 import logo from './Assets/logo.jpeg';
 import Navbar from './Navbar';
@@ -6,6 +6,22 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 const Header = () => {
+  useEffect(() => {
+    // Adjust the scroll position when clicking on anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        window.scrollTo({
+          top: targetElement.offsetTop - document.querySelector('.header').offsetHeight,
+          behavior: 'smooth'
+        });
+      });
+    });
+  }, []);
   return (
     <div className="header">
       <div className="header-container">

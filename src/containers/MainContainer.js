@@ -3,7 +3,7 @@ import Home from '../components/Home';
 import Services from '../components/Services';
 import Founder from '../components/Founder';
 import Contact from '../components/Contact';
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 function MainContainer() {
   return (
@@ -15,13 +15,15 @@ function MainContainer() {
       <section id="services">
         <Services />
       </section>
-      <section id="founder">
+      <section id="maisy">
         <Founder />
       </section>
       <section id="contact">
         <Contact />
       </section>
-      <Footer/>
+      <section id="footer">
+      <Footer />
+      </section>
     </div>
   );
 }

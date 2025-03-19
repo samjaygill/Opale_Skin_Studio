@@ -10,10 +10,11 @@
 }
 .sm-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 1%;
+  margin-top: 5px;
+  gap: 20px;
 }
 
 .footer-section h3 {
@@ -28,6 +29,10 @@
   transition: color 0.3s ease;
 }
 
+.footer-section p {
+  margin: 5px;
+}
+
 .footer-section a:hover {
   color: #007bff;
 }
@@ -35,6 +40,7 @@
 .social-icons-footer {
   display: flex;
   gap: 15px;
+  font-size: 18px;
 }
 
 .quick-links ul {

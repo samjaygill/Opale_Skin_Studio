@@ -26,6 +26,9 @@
   border-right: 1px solid #d0bfa5;
   background-color: #fefbf9; /* White background */
 }
+.accordion-content p {
+  margin: 10px;
+}
 
 .accordion-icon {
   margin-left: 10px;
@@ -56,9 +59,8 @@
   .accordion-content {
     padding: 6px;
   }
-  .accordion-content-p{
+  .accordion-content-p {
     font-size: 12px;
-
   }
 
   .accordion-icon {
@@ -75,7 +77,6 @@
 
   .accordion-content {
     padding: 5px;
-  
   }
 
   .accordion-icon {

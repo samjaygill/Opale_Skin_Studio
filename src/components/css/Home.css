@@ -1,5 +1,5 @@
 .home {
-  padding-top: 80px;
+  padding-top: 70px;
   background-color: #e1d3c4;
 }
 .home-container {
@@ -22,7 +22,6 @@
   margin: 2.5%;
   border: 3px solid #d0bfa5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 .head {
   font-size: 40px;
@@ -65,7 +64,7 @@
   .candles {
     max-width: 95%;
   }
-  .candles{
+  .candles {
     margin: 0 0 2.5% 0;
   }
 

@@ -5,8 +5,9 @@ body {
   overflow-x: hidden;
   max-width: 100%;
 }
-input:focus, textarea:focus {
-  scroll-behavior: smooth;
-  overflow: hidden;
-  touch-action: none;  /* Prevents touch interaction from causing scroll */
+
+
+* {
+  box-sizing: border-box;
+  max-width: 100vw; 
 }

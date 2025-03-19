@@ -4,6 +4,11 @@
 *::after {
   box-sizing: border-box;
 }
+input:focus, textarea:focus {
+  scroll-behavior: smooth;
+  overflow: hidden;
+  touch-action: none;  /* Prevents touch interaction from causing scroll */
+}
 
 .contact-form-container {
   max-width: 600px;

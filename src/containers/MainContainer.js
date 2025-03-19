@@ -18,12 +18,8 @@ function MainContainer() {
       <section id="maisy">
         <Founder />
       </section>
-      <section id="contact">
         <Contact />
-      </section>
-      <section id="footer">
       <Footer />
-      </section>
     </div>
   );
 }

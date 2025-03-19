@@ -68,13 +68,7 @@ const Navbar = () => {
         >
           Our Story
         </a>
-        <a
-          href="#contact"
-          onClick={(e) => handleNavClick(e, '#contact')}
-          className={activeSection === '#contact' ? 'active' : ''}
-        >
-          Contact
-        </a>
+
       </div>
     </div>
   );

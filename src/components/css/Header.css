@@ -110,6 +110,13 @@
   .book-btn {
     font-size: 14px;
     padding: 5px 10px;
+    position: fixed;
+    margin: 2.5% 2.5% 0 0;
+    top: 0;
+    right: 0;
+  }
+  .logo-card {
+    max-width: 100px;
   }
 
   .social-icons {
@@ -120,13 +127,22 @@
 
 /* Extra Small Devices */
 @media (max-width: 480px) {
+  .header {
+    background: linear-gradient(
+      to bottom,
+      #e1d3c4 90%,
+      rgba(232, 216, 210, 0) 100%
+    );
+    padding-bottom: 5%;
+  }
   .header-container {
     padding-top: 30px;
     padding: 0;
     gap: 2px;
+    padding-top: 3%;
   }
 
-  .logo-card{
+  .logo-card {
     max-width: 100px;
   }
   .logo {

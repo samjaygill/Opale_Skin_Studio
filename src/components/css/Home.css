@@ -83,24 +83,25 @@
 
 @media (max-width: 480px) {
   .home-container {
-    flex-direction: column; 
+    flex-direction: column;
     padding: 5%;
-    padding-top: 20%;
-    gap: 15px; 
+    padding-top: 10%;
+    gap: 15px;
   }
 
-  .text-content, .candles {
-    max-width: 100%; 
+  .text-content,
+  .candles {
+    max-width: 100%;
     text-align: center;
   }
 
   .candles {
-    width: 100%;
+    width: 70%;
     margin: 0;
   }
 
   .head {
-    font-size: 22px; 
+    font-size: 22px;
     line-height: 1.4;
   }
 

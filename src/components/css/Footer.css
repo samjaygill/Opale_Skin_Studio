@@ -70,7 +70,12 @@
   }
   .social-icons-footer {
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  .social-icons-footer a {
+    font-size: 15px;
   }
   .footer-content {
     margin-top: 5px;

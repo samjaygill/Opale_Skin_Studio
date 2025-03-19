@@ -88,7 +88,7 @@
   .founder-container {
     flex-direction: column;
     padding: 5%;
-    gap: 20px;
+    gap: 10px;
     text-align: center;
   }
 
@@ -98,7 +98,7 @@
   }
 
   .maisy {
-    width: 100%;
+    width: 70%;
     margin: 0;
   }
 

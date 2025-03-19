@@ -3,4 +3,5 @@ body {
   color: #8f7365 !important;
   font-family: 'Georgia', serif; /* Elegant and soft */
   overflow-x: hidden;
+  max-width: 100%;
 }

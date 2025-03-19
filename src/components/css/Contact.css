@@ -32,7 +32,6 @@
     flex-direction: row; /* Stack the logo and text vertically */
     gap: 2%; /* Add more space between elements */
     flex-wrap: nowrap;
-    /* align-items: space-between; */
   }
 
   .contact-form {
@@ -40,7 +39,7 @@
   }
 
   .contact-logo {
-    width: 40%; /* Ensure the text doesn't stretch too much */
+    width: 40%;
   }
   .large-logo {
     max-width: 100%;
@@ -48,9 +47,31 @@
   }
 }
 
-/* For Mobile Devices */
 @media (max-width: 480px) {
   .contact-container {
-    padding: 5% 2.5%; /* Increase padding for mobile screens */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 2.5%;
+    max-width: 100%;
+  }
+
+  .contact-text {
+    width: 65%; /* Form takes more space */
+  }
+
+  .large-logo {
+    /* width: 30%; */
+    /* max-width: 40%; */
+    margin: 0;
+  }
+
+  .contact-form {
+    max-width: 70%;
+  }
+
+  .contact-logo {
+    width: 100%;
   }
 }

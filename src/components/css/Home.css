@@ -55,52 +55,53 @@
   }
 }
 
-
-/* Mobile Screens */
-@media (max-width: 768px) {
-  .home-container {
-    flex-direction: column;
-    gap: 5px;
-    padding: 0%;
-    margin-top: 5%;
-  }
-
+@media (max-width: 820px) {
   .text-content,
   .candles {
-    max-width: 95%;
+    max-width: 80%;
   }
-  .candles {
-    margin: 0 0 2.5% 0;
-  }
-
-  .head {
-    font-size: 22px;
-    margin: 4% 0%;
-  }
-
-  .body {
-    font-size: 17px;
-    margin: 2.5% 0 0 0;
-  }
-}
-
-/* Extra Small Devices */
-@media (max-width: 480px) {
   .home-container {
-    flex-direction: column;
-    text-align: center;
-    gap: 2px;
-    padding-top: 35px;
+    padding: 0 5% 2.5% 5%;
   }
 
+  .text-content {
+    padding: 0;
+  }
   .candles {
-    /* width: 100%; */
-    width: 90%;
+    margin: 0;
   }
 
   .head {
     font-size: 25px;
-    /* padding-top: 5px; */
+    margin: 15px 0;
+  }
+
+  .body {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    flex-direction: column; 
+    padding: 5%;
+    padding-top: 20%;
+    gap: 15px; 
+  }
+
+  .text-content, .candles {
+    max-width: 100%; 
+    text-align: center;
+  }
+
+  .candles {
+    width: 100%;
+    margin: 0;
+  }
+
+  .head {
+    font-size: 22px; 
+    line-height: 1.4;
   }
 
   .body {

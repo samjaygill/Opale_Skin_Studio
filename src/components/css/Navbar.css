@@ -37,22 +37,20 @@
   }
 }
 
+@media (max-width: 820px) {
+  .nav-card {
+    gap: 25px;
+  }
+}
+
 /* Mobile Screens */
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .nav-container {
     padding: 10px 0;
   }
 
   .nav-card {
     gap: 15px;
-  }
-
-  .nav-card a {
-    font-size: 16px;
-  }
-
-  .nav-container a i {
-    font-size: 16px;
   }
 }
 
@@ -63,7 +61,7 @@
   }
 
   .nav-card {
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     gap: 15px;
   }

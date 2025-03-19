@@ -77,56 +77,55 @@ textarea {
 }
 
 /* Responsive Styles */
-
-/* Small Devices (Tablets and Mobile Portrait) */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
+  .contact-form-container h2 {
+    font-size: 16px;
+  }
   .contact-form-container {
-    padding: 15px;
-    width: 90%; /* Adjust container width on smaller screens */
+    padding: 10px 20px 20px 20px;
+  }
+  .contact-form-container button {
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 480px) {
+  .contact-form-container {
+    max-width: 100%;
+    padding: 10px; /* Reduced padding to make it more compact */
+    margin: 0 auto;
   }
 
-  .form-group-inline {
-    flex-direction: column; /* Stack name fields vertically on smaller screens */
-  }
-
-  .form-group-inline .form-group {
-    margin-bottom: 10px;
-  }
-
-  input {
-    padding: 5px;
+  .contact-form h2 {
+    margin: 5px 0 10px 0;
   }
 
   h2 {
-    font-size: 14px; /* Adjust header size */
-  }
-  label {
-    font-size: 13px;
+    font-size: 16px; /* Smaller heading */
+    margin-bottom: 10px;
   }
 
-  .button {
-    font-size: 14px; /* Smaller button text */
-    padding: 8px 16px; /* Adjust button padding */
-  }
-}
-
-/* Extra Small Devices (Mobile) */
-@media (max-width: 480px) {
-  .contact-form-container {
-    padding: 5px 10px;
-    width: 95%; /* Increase container width on smaller screens */
+  .form-group {
+    margin-bottom: 10px; /* Less space between form groups */
   }
 
   .form-group-inline {
-    flex-direction: column; /* Stack fields vertically on mobile */
+    flex-direction: column;
+    gap: 0; /* Smaller gap between fields */
   }
 
-  .form-group-inline .form-group {
-    margin-bottom: 8px;
+  input,
+  textarea {
+    padding: 4px; /* Reduced padding for smaller height */
+    font-size: 13px; /* Slightly smaller text */
+  }
+
+  textarea {
+    height: 40px; /* Shorter textarea */
   }
 
   .button {
-    font-size: 13px; /* Adjust button font size for mobile */
-    padding: 6px 12px; /* Adjust button padding */
+    width: 100%;
+    padding: 6px 12px; /* Smaller button padding */
+    font-size: 14px;
   }
 }

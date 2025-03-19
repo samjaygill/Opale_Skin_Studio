@@ -39,7 +39,6 @@
 
 /* Medium Screens (Tablets) */
 @media (max-width: 1127px) {
-
   .accordion-btn {
     font-size: 16px;
     padding: 10px 15px;
@@ -53,37 +52,17 @@
   }
 }
 
-/* Mobile Screens */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .accordion-btn {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .accordion-content {
-    padding: 6px;
+    font-size: 15px;
   }
   .accordion-content-p {
-    font-size: 12px;
-  }
-
-  .accordion-icon {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
-/* Extra Small Devices */
 @media (max-width: 480px) {
-  .accordion-btn {
-    font-size: 14px;
-    padding: 8px;
-  }
-
-  .accordion-content {
-    padding: 5px;
-  }
-
-  .accordion-icon {
-    font-size: 16px;
+  .accordion-content p {
+    margin: 5px;
   }
 }

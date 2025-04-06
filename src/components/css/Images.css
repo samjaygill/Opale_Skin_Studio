@@ -1,0 +1,32 @@
+.after-images {
+  max-height: 550px;
+  width: 70%;
+}
+.image-container {
+  background-color: #f9f4ef !important;
+  display: flex;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .after-images {
+    width: 100%; /* Increase the width of the image on smaller screens */
+    max-height: 500px; /* Decrease max-height on smaller screens */
+  }
+
+  /* .image-container {
+      padding: 15px; 
+    } */
+}
+
+@media (max-width: 480px) {
+  .after-images {
+    width: 100%; /* Make the image take up the full width on very small screens */
+    max-height: 500px; /* Further reduce the max-height for smaller devices */
+  }
+
+  /* .image-container {
+      padding: 10px; 
+    } */
+}

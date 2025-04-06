@@ -5,8 +5,8 @@
 .image-container {
   background-color: #f9f4ef !important;
   display: flex;
-  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {

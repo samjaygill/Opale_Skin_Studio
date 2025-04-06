@@ -8,7 +8,7 @@
   align-items: center;
   padding: 2% 5%;
   gap: 2.5%;
-  border-bottom: 0.5px solid #d0bfa5;
+  /* border-bottom: 0.5px solid #d0bfa5; */
 }
 .services-text {
   max-width: 50%;
@@ -78,13 +78,14 @@
 }
 @media (max-width: 480px) {
   .services-container {
-    flex-direction: column-reverse; 
+    flex-direction: column-reverse;
     padding: 5%;
     gap: 20px;
     text-align: center;
   }
 
-  .services-text, .salon {
+  .services-text,
+  .salon {
     max-width: 100%;
   }
 
@@ -94,7 +95,7 @@
   }
 
   .services-head {
-    font-size: 22px; 
+    font-size: 22px;
     line-height: 1.4;
   }
 

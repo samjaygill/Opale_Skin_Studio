@@ -12,14 +12,19 @@
 @media (max-width: 768px) {
   .after-images {
     width: 100%; 
-    max-height: 600px; 
+    max-height: 700px; 
+    height: 300px;
+    margin: 10px 0;
 
 }
 
 @media (max-width: 480px) {
   .after-images {
     width: 100%; 
-    max-height: 600px; 
+    max-height: 700px; 
+    height: 300px;
+    margin: 10px 0;
+
   }
 } 
 }

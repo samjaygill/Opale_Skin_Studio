@@ -23,6 +23,12 @@
 .services-head {
   font-size: 30px;
 }
+.services-video {
+  width: auto;
+  max-width: 600px;
+  max-height: 550px;
+  cursor: pointer;
+}
 
 @media (max-width: 1210px) {
   .services-container {

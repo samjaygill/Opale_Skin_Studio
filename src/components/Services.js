@@ -16,7 +16,7 @@ const Services = () => {
   }, []);
 
   return (
-    <e>
+    <>
       <div className="services">
         <div className="services-container">
           <div className="services-image">
@@ -43,7 +43,7 @@ const Services = () => {
         </div>
       </div>
       <Images />
-    </e>
+    </>
   );
 };
 

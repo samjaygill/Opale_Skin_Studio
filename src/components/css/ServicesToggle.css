@@ -53,6 +53,7 @@
 @media (max-width: 820px) {
   .accordion-btn {
     font-size: 15px;
+    padding: 5px 20px;
   }
   .accordion-content-p {
     font-size: 13px;

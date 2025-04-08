@@ -41,7 +41,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="footer-section copyright">
-          <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Opale Skin Studio. All rights reserved.</p>
         </div>
       </div>
     </footer>

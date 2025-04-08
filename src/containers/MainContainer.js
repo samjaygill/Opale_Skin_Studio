@@ -4,6 +4,7 @@ import Services from '../components/Services';
 import Founder from '../components/Founder';
 import Contact from '../components/Contact';
 import Footer from "../components/Footer";
+import VideoRow from '../components/VideoRow';
 
 function MainContainer() {
   return (
@@ -18,7 +19,10 @@ function MainContainer() {
       <section id="maisy">
         <Founder />
       </section>
+      <VideoRow/>
+      <section id="contact">
         <Contact />
+        </section>
       <Footer />
     </div>
   );

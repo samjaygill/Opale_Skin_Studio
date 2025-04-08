@@ -31,6 +31,12 @@
   display: block;
   border-radius: 20px;
 }
+@media (max-width: 1320px) {
+
+  .glass-card {
+    max-width: 225px; 
+  }
+}
 
 @media (max-width: 1200px) {
   .glass-video-grid {
@@ -39,25 +45,30 @@
   }
 
   .glass-card {
-    max-width: 250px; /* Slightly smaller width for tablets */
+    max-width: 225px; 
   }
 }
 
-/* For screens smaller than 768px (tablets) */
-@media (max-width: 768px) {
-  .glass-video-grid {
-    gap: 0.5rem;
-    padding: 0.5rem 0.5rem;
-    justify-content: center; /* Two cards in a row */
-  }
-
+@media (max-width: 983px) {
   .glass-card {
-    max-width: 20%; /* Two cards per row on tablets */
+    max-width: 20%; 
     aspect-ratio: 9 / 14;
   }
 }
 
-/* For screens smaller than 480px (smartphones) */
+@media (max-width: 768px) {
+  .glass-video-grid {
+    gap: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    justify-content: center; 
+  }
+
+  .glass-card {
+    max-width: 20%; 
+    aspect-ratio: 9 / 14;
+  }
+}
+
 @media (max-width: 480px) {
   .glass-video-grid {
     gap: 0.1rem;
@@ -65,7 +76,7 @@
   }
 
   .glass-card {
-    max-width: 40%; /* Cards take up most of the screen width */
-    aspect-ratio: 5 / 7; /* Adjusting aspect ratio for mobile */
+    max-width: 40%; 
+    aspect-ratio: 5 / 7; 
   }
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './css/Services.css';
 import ServicesToggle from './ServicesToggle';
 // import image2 from './Assets/image2.jpeg';
-import myVideo from './Assets/my-video.mp4';
+// import myVideo from '../../public/videos/my-video.mp4';
 import Images from './Images';
 
 const Services = () => {
@@ -27,7 +27,7 @@ const Services = () => {
               autoPlay
               loop
             >
-              <source src={myVideo} type="video/mp4" />
+              <source src="/videos/my-video.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="services-text">

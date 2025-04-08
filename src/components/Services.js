@@ -4,6 +4,8 @@ import ServicesToggle from './ServicesToggle';
 // import image2 from './Assets/image2.jpeg';
 // import myVideo from '../../public/videos/my-video.mp4';
 import Images from './Images';
+import image4 from "./Assets/image4.png"
+
 
 const Services = () => {
   const videoRef = useRef(null);
@@ -20,15 +22,8 @@ const Services = () => {
       <div className="services">
         <div className="services-container">
           <div className="services-image">
-            <video
-              ref={videoRef}
-              className="services-video"
-              muted
-              autoPlay
-              loop
-            >
-              <source src="/videos/my-video.mp4" type="video/mp4" />
-            </video>
+      <img src={image4} alt="salon" className="salon" />
+            
           </div>
           <div className="services-text">
             <h1 className="services-head">Our Services</h1>

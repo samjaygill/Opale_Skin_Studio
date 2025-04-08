@@ -6,7 +6,7 @@ import ServicesToggle from './ServicesToggle';
 import Images from './Images';
 
 const Services = () => {
-  const videoRef = useRef(null); // Creating a reference to the video element
+  const videoRef = useRef(null);
 
   useEffect(() => {
     if (videoRef.current) {
@@ -21,13 +21,13 @@ const Services = () => {
         <div className="services-container">
           <div className="services-image">
             <video
-              ref={videoRef} 
+              ref={videoRef}
               className="services-video"
               muted
               autoPlay
               loop
             >
-              <source src="/my-video.mp4" type="video/mp4" />
+              <source src="/videos/my-video.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="services-text">

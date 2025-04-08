@@ -8,3 +8,5 @@
 	url = https://github.com/samjaygill/Opale_Skin_Studio.git
 	fetch = +refs/*:refs/*
 	mirror = true
+[lfs]
+	repositoryformatversion = 0

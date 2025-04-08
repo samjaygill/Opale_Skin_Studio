@@ -27,7 +27,7 @@ const Services = () => {
               autoPlay
               loop
             >
-              <source src="/videos/my-video.mp4" type="video/mp4" />
+              <source src="/my-video.mp4" type="video/mp4" />
             </video>
           </div>
           <div className="services-text">

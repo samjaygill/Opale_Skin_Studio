@@ -4,10 +4,11 @@
 *::after {
   box-sizing: border-box;
 }
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   scroll-behavior: smooth;
   overflow: hidden;
-  touch-action: none;  /* Prevents touch interaction from causing scroll */
+  touch-action: none; /* Prevents touch interaction from causing scroll */
 }
 
 .contact-form-container {
@@ -87,7 +88,7 @@ textarea {
     font-size: 16px;
   }
   .contact-form-container {
-    padding: 10px 20px 20px 20px;
+    padding: 0px 20px 10px 20px;
   }
   .contact-form-container button {
     padding: 5px 20px;

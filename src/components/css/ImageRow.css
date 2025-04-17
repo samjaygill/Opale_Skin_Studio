@@ -24,15 +24,16 @@
   transform: scale(1.03);
 }
 
-.glass-card video {
+/* ✅ Add this for images */
+.glass-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
   border-radius: 20px;
 }
-@media (max-width: 1320px) {
 
+@media (max-width: 1320px) {
   .glass-card {
     max-width: 225px; 
   }
